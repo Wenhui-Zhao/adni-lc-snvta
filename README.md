@@ -28,3 +28,7 @@ The analysis environment is:
 - **R 4.4.1** with `data.table`, `lme4`, `lmerTest`, `mgcv`, `MASS`, `Matrix`, `digest`, `jsonlite`, and `reformulas`. Mediation additionally requires the study-validated **`lavaan` 0.7.2** library.
 - **Python 3.9.21** with **NumPy 2.0.2**, **pandas 2.2.3**, and **SciPy 1.13.1**.
 - **MATLAB R2019b** with the **McIntosh PLS toolbox** for PLSC analyses.
+
+## Acknowledgements
+
+`matlab/rri_boot_check.m` is adapted from the McIntosh Lab PLS toolbox
