@@ -6,7 +6,7 @@ Analysis code accompanying the paper by Zhao et al.
 
 Start with `run.sh`, which runs the each analyses. The individual analysis and helper scripts do not need to be launched separately.
 
-Install the software below, make `Rscript`, `python3`, and `matlab` available on your `PATH`, and place `rri_boot_check.m` in the `matlab/` subfolder. From the repository directory, replace the paths below and run:
+Install the software listed below and make Rscript, python3, and matlab available on your PATH. The required modified PLS bootstrap helper is already included at matlab/rri_boot_check.m; retain this file in that location. Set PLS_TOOLBOX_ROOT to your installed McIntosh PLS toolbox directory. From the repository directory, replace the example paths below and run:
 
 ```bash
 export PLS_TOOLBOX_ROOT="/path/to/pls_toolbox"
